@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Home</title>
+  </head>
+
+
+  <body>
+    <button class="modalButton" id="modalButton">Register Now</button>
+
+
+    <div class="container" id="container">
+      <form id="form" class="form">
+        <h2>Register For Free</h2>
+
+        <div class="form-control">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter username" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="phonenumber">Phone Number (Optional)</label>
+          <input type="tel" id="phonenumber" placeholder="Enter phone number" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label for="Confirm Password">Confirm Password</label>
+          <input
+            type="password"
+            id="Confirm Password"
+            placeholder="Repeat password"
+          />
+          <small>Error message</small>
+        </div>
+
+        <button type="submit">Submit</button>
+        <span class="close">X</span>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
